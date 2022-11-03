@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: font-family: 'Roboto', sans-serif;;
+}
+
+h1{
+    margin-top: 40px;
+}
+
+.container{
+    width: 400px;
+    height: 50px;
+    margin-top: 35px;
+}
+
+.exp{
+    margin-top: 35px;
+    border-color: rgba(238, 234, 234, 0.628);
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2px 1px 1px 2px rgba(238, 234, 234, 0.628);
+
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.money{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.money_plus{
+    font-size: 20px;
+    color: green;
+}
+.money_minus{
+    font-size: 20px;
+    margin-left: 20px;
+    color: red;
+}
+h3 {
+    margin-top: 35px;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.pluss_iteams{
+    width: 420px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    box-shadow: 1px 1px 2px 4px rgba(238, 234, 234, 0.628);
+    margin-bottom: 20px;
+    border-radius: 12px;
+    color: rgb(198, 196, 196);
+}
+.pluss_iteams span {
+    font-size: 20px;
+    position: absolute;
+    right: 8%;
+    color: black;
+}
+li{
+    list-style: none;
+}
+.pluss_iteams p {
+    margin-left: 20px;
+}
+.delete_btn{
+    position:absolute;
+    right: 0;
+    margin-right: 5px;
+}
+.minus_iteam{
+    min-width: 400px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    border-radius: 12px;
+    color: rgb(212, 212, 212);
+    box-shadow: 1px 1px 2px 4px rgba(238, 234, 234, 0.628);
+}
+.minus_iteam span{
+    font-size: 20px;
+    position: absolute;
+    right: 8%;
+    color: black;
+}
+.minus_iteam p{
+    margin-left: 20px;
+}
+.delete_btn{
+    color: red;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-style: none;
+}
+.form_control{
+    display: flex;
+    width: 400px;
+    height: 80px;
+    flex-direction:column ;
+}
+label{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+input{
+    margin-top: 10px;
+    height: 30px;
+    width: 350px;
+    margin-left: 20px;
+    border-style: solid;
+    border-color: rgb(212, 212, 212);
+    border-radius: 12px;
+}
+.btn{
+    margin-top: 20px;
+    width: 350px;
+    height: 35px;
+    margin-left: 20px;
+    background-color: darkblue;
+    border-style: none;
+    border-radius: 12px;
+    color: white;
+    margin-bottom: 50px;
+}
